@@ -4,8 +4,12 @@
 
 body{
   margin: 0;
-  background-image: url("etalasi.jpg");
+  background-image: url("bg.jpg");
   background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-weight: bold;
 }
 .header {
