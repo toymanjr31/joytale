@@ -65,7 +65,7 @@ body{
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #ddd;
+  background-color: #f2f2f2;
   color: black;
  }
 
@@ -100,6 +100,46 @@ body{
   opacity: 0.9;
   padding: 50px;
   margin-top: 6%;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.tempimage {
+  background-color: #aaa;
+  padding: 20px;
+}
+
+.blogcard {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   height: 60%;
+}
+
+.bannercard {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.blogcard img{
+   float: left;
+   margin-right: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 footer {
