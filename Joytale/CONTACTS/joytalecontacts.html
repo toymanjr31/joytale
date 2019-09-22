@@ -26,11 +26,14 @@
   </div>
   <div class="main">
   	<h1>Contact Us!</h1>
-  		<input type="text" id="name" name="name" placeholder="Your name..">
+    <form name="Form" onsubmit="validateForm()" method="post">
+  		<input type="text" name="name" placeholder="Your name">
   		<input type="email" name="emailaddress" placeholder="Your E-mail Adress">
-  		<textarea id="subject" name="subject" placeholder="Say something.." style="height:200px"></textarea>
-  	<input type="submit" value="Submit">
+  		<textarea name="subject" placeholder="Say something.." style="height:200px"></textarea>
+  	  <input type="submit" value="Submit">
+    </form>
   </div>
+  <script src="joytalecontactjs.js"></script>
 </body>
 
 <footer>

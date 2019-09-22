@@ -144,6 +144,7 @@ img{
 .container:hover .overlay {
   bottom: 0;
   height: 100%;
+  cursor: pointer;
 }
 
 .text {
@@ -154,6 +155,15 @@ img{
   font-size: 20px;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.colcontent{
+  padding: 0 10px;
+  background-color: lightgrey;
+  max-height: 0;
+  width: 100%;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
 
 footer {
