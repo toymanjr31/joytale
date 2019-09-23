@@ -13,27 +13,47 @@
   <div class="topnav">
     <a href="../HOME/joytalehome.html">Home</a>
     <a href="../PRODUCTS/joytaleproducts.html">Products</a>
-    <a href="../BLOG/joytaleblog.html">Blog</a>
     <div class="dropdown">
-    	<button class="dropbtn"><b>About</b></button>
-    	<div class="dropdown-content">
-      		<a href="../HISTORY/joytalehistory.html">History</a>
-      		<a href="../THE TEAM/joytaletheteam.html">The Team</a>
-    	</div>
-  	</div>
+      <button class="dropbtn"><b>Blog</b></button>
+      <div class="dropdown-content">
+          <a href="#">Podcast</a>
+          <a href="#">Video</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn"><b>About</b></button>
+      <div class="dropdown-content">
+          <a href="../HISTORY/joytalehistory.html">History</a>
+          <a href="../THE TEAM/joytaletheteam.html">The Team</a>
+      </div>
+    </div>
     <a class="active" href="joytalecontacts.html">Contacts</a>
     <input type="text" placeholder="Search..">
   </div>
   <div class="main">
-  	<h1>Contact Us!</h1>
-    <form name="Form" onsubmit="validateForm()" method="post">
-  		<input type="text" name="name" placeholder="Your name">
-  		<input type="email" name="emailaddress" placeholder="Your E-mail Adress">
-  		<textarea name="subject" placeholder="Say something.." style="height:200px"></textarea>
-  	  <input type="submit" value="Submit">
-    </form>
+    <h1>Contact Us!</h1>
+
+    <label for="name">Full Name</label>
+      <input type="text" id="input_name" name="name" placeholder="Your name..">
+    <label for="emailaddress">Email Adress</label>
+      <input id="input_email" type="email" name="emailaddress" placeholder="Your E-mail Adress">
+    <label for="subject">Subject</label>
+      <textarea id="input_subject" name="subject" placeholder="Say something.." style="height:200px"></textarea>
+      
+      <div class="row">
+        <div class="column">
+        <input id="button_submit" type="submit" value="Submit">
+      </div>
+
+      <div class="column">
+        <h5 id="warning_submit" type="text"></h5>
+      </div>
+      </div>
+
   </div>
-  <script src="joytalecontactjs.js"></script>
+
+  <script type="text/javascript" src="joytalecontacts_script.js"></script>
+
 </body>
 
 <footer>
